@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Meu Veiculo</title>
+        <link rel="stylesheet" href="icons/material.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    </head>
+    <body>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper indigo darken-4">
+                    <a href="#" class="brand-logo" id="lgomanuc">
+                        Manutenção 
+                        <i class="material-icons right">build</i>
+                    </a>
+                    <a href="#" data-target="mobile-navbar" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <!--Opção pra chamar Tela Principal-->
+                        <li>
+                            <a href="index.html">
+                                <i class="material-icons left">home</i>Principal
+                            </a>
+                        </li>
+                        <!--Opção pra chamar Tela de Combustivel-->
+                        <li>
+                            <a href="combide.html">
+                                <i class="material-icons left">shopping_cart</i>
+                                Escolha de Combustivel
+                            </a>
+                        </li>
+                        <!-- Dropdown Trigger Veiculo -->
+                        <li>
+                            <a class="dropdown-triggerc" data-target="drop-menuc" href="#">
+                                <i class="material-icons left">commute</i>
+                                Veículo<i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                        <!-- Dropdown Trigger Manutenção -->
+                        <li>
+                            <a class="dropdown-trigger" data-target="drop-mennu" href="#">
+                                <i class="material-icons left">build</i>
+                                Manutenção<i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                        <!-- Dropdown Trigger Gastos -->
+                        <li>
+                            <a class="dropdown-triggerg" data-target="drop-menug" href="#">
+                                <i class="material-icons left">attach_money</i>
+                                Gastos<i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                        <!-- Dropdown Trigger Info -->
+                        <li>
+                            <a class="dropdown-triggeri" data-target="drop-menui" href="#">
+                                <i class="material-icons left">info</i>
+                                Info<i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sobre.html">
+                                <i class="material-icons left">account_box</i>
+                                Sobre
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Opções Dropdown Da Manutenção -->
+                    <ul id="drop-mennu" class="dropdown-content">
+                            <li id="dpm1"><a href="manucad.html" class="blue-text text-darken-4">
+                                <i class="material-icons left">settings</i>Manutenção</a>
+                            </li>
+                            <li id="dpm2"><a href="manucon.html" class="blue-text text-darken-4">
+                                <i class="material-icons left">find_in_page</i>Consulta</a>
+                            </li>
+                    </ul>
+                    <!-- Opções Dropdown do Gasto -->
+                    <ul id="drop-menug" class="dropdown-content">
+                            <li id="dpg1">
+                                <a href="gastocad.html" class="blue-text text-darken-4">
+                                    <i class="material-icons left">note_add</i>Lançamento de Gastos
+                                </a>
+                            </li>
+                            <li id="dpg2">
+                                <a href="gastocon.html" class="blue-text text-darken-4">
+                                    <i class="material-icons left">receipt</i>Consulta
+                                </a>
+                            </li>
+                    </ul>
+                    <!-- Opções Dropdown Do Veiculo -->
+                    <ul id="drop-menuc" class="dropdown-content">
+                        <li id="dpv1"><a href="cadvei.html" class="blue-text text-darken-4">
+                            <i class="material-icons left">local_car_wash</i>Veículo</a>
+                        </li>
+                        <li id="dpv2"><a href="convei.html" class="blue-text text-darken-4">
+                            <i class="material-icons left">assignment</i>Consulta</a>
+                        </li>
+                    </ul>
+                    <!-- Opções Dropdown Do Info -->
+                    <ul id="drop-menui" class="dropdown-content">
+                        <li id="dpi1"><a href="infocali.html" class="blue-text text-darken-4">
+                            <i class="material-icons left">directions_car</i>Calibragem</a>
+                        </li>
+                        <li id="dpi2"><a href="infooleo.html" class="blue-text text-darken-4">
+                            <i class="material-icons left">invert_colors</i>Oléo Ideal</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="mob">
+            <!-- Menu Mobile -->
+            <ul class="sidenav" id="mobile-navbar">
+                <li>
+                    <a href="index.html" class="blue-text text-accent-4">
+                        <i class="material-icons left" style="color:blue">home</i>
+                        <b>Principal</b>
+                    </a>
+                </li>
+                <li>
+                    <a href="combide.html" class="blue-text text-accent-4">
+                        <i class="material-icons left" style="color:blue">shopping_cart</i>
+                        <b>Escolha de Combustivel</b>
+                    </a>
+                </li>
+                <!-- Dropdown Trigger Veiculo -->
+                <li>
+                    <a class="dropdown-triggerc1 blue-text text-accent-4" data-target="drop-menuc1" href="#">
+                        <i class="material-icons" style="color:blue">commute</i>
+                            <b>Veículo</b>
+                        <i class="material-icons right" style="color:blue">arrow_drop_down</i>
+                    </a>
+                </li>
+                <!-- Dropdown Trigger Manutenção -->
+                <li>
+                    <a class="dropdown-trigger1 blue-text text-accent-4" data-target="drop-menu1" href="#">
+                        <i class="material-icons left" style="color:blue">build</i>
+                            <b>Manutenção</b>
+                        <i class="material-icons right" style="color:blue">arrow_drop_down</i>
+                    </a>
+                </li>
+                <!-- Dropdown Trigger Gastos -->
+                <li>
+                    <a class="dropdown-triggerg1 blue-text text-accent-4" data-target="drop-menug1" href="#">
+                        <i class="material-icons left" style="color:blue">attach_money</i>
+                            <b>Gastos</b>
+                        <i class="material-icons right" style="color:blue">arrow_drop_down</i>
+                    </a>
+                </li>                
+                <!-- Dropdown Trigger Info -->
+                <li>
+                    <a class="dropdown-triggeri1 blue-text text-accent-4" data-target="drop-menui1" href="#">
+                        <i class="material-icons left" style="color:blue">info</i>
+                            <b>Info</b>
+                        <i class="material-icons right" style="color:blue">arrow_drop_down</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="sobre.html" class="blue-text text-accent-4">
+                        <i class="material-icons left" style="color:blue">account_box</i>
+                        <b>Sobre</b>
+                    </a>
+                </li>
+            </ul>
+            <!-- Opções Dropdown Da Manutenção Mobile-->
+            <ul id="drop-menu1" class="dropdown-content">
+                <li id="dpm1">
+                    <a href="manucad.html" class="blue-text text-accent-4">
+                        <i class="material-icons left" style="color:blue">settings</i>
+                        <b>Manutenção</b>
+                    </a>
+                </li>
+                <li id="dpm2">
+                    <a href="manucon.html" class="blue-text text-accent-4">
+                        <i class="material-icons left" style="color:blue">find_in_page</i>
+                        <b>Consulta</b>
+                    </a>
+                </li>
+            </ul>
+            <!-- Opções Dropdown do Gasto -->
+            <ul id="drop-menug1" class="dropdown-content">
+                <li id="dpg1">
+                    <a href="gastocad.html" class="blue-text text-accent-4">
+                    <i class="material-icons left" style="color:blue">note_add</i>
+                        <b>Lançamento de Gastos</b>
+                    </a>
+                </li>
+                <li id="dpg2">
+                    <a href="gastocon.html" class="blue-text text-accent-4">
+                    <i class="material-icons left" style="color:blue">receipt</i>
+                        <b>Consulta</b>
+                    </a>
+                </li>
+            </ul>
+            <!-- Opções Dropdown Do Veiculo -->
+            <ul id="drop-menuc1" class="dropdown-content">
+                <li id="dpv1">
+                    <a href="cadvei.html" class="blue-text text-accent-4">
+                    <i class="material-icons left" style="color:blue">local_car_wash</i>
+                        <b>Veículo</b>
+                    </a>
+                </li>
+                <li id="dpv2">
+                    <a href="convei.html" class="blue-text text-accent-4">
+                    <i class="material-icons left" style="color:blue">assignment</i>
+                        <b>Consulta</b>
+                    </a>
+                </li>
+            </ul>
+            <!-- Opções Dropdown Do Info -->
+            <ul id="drop-menui1" class="dropdown-content">
+                <li id="dpi1">
+                    <a href="infocali.html" class="blue-text text-accent-4">
+                        <i class="material-icons left" style="color:blue">directions_car</i>
+                            <b>Calibragem</b>
+                    </a>
+                </li>
+                <li id="dpi2">
+                    <a href="infooleo.html" class="blue-text text-accent-4">
+                    <i class="material-icons left" style="color:blue">invert_colors</i>
+                        <b>Oléo Ideal</b>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <input type="hidden" id="manu_id_update">
+        <input type="hidden" id="manu_id_delete">
+
+        <div class="section" id="camanu">
+            <h6 class="container blue-darken-text">
+                <i class="material-icons">settings</i>
+                <b>Lançamento de Manutenção</b>
+            </h6><br><br>
+            <form id="form-dolar">
+                <label for="man" class="mm"><b>Manutenção: </b></label>
+                <input id="cadmanu" name="manu" type="text"><br>
+                <label for="km" class="mm"><b>KM:</b></label>
+                <input id="cadkm" name="kmm" type="number"><br><br>
+                <div class="btncad">
+                    <button id="cadastrar" class="waves-effect waves-light btn-large indigo darken-4" onclick="addmanu()">
+                        <i class="material-icons right">check</i><b>Cadastrar</b>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Sistemas Profilios's
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src="js/veiculo.js"></script>
+        <script src="js/manu.js"></script>
+
+    </body>
+</html>
+    

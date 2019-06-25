@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Meu Veículo",
+  "short_name": "Meu Veículo",
+  "version": "com.fid.meuveiculo",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "author": "Sistemas Profilio's",
+  "icons": [],
+  "start_url": "index.html"
+}

@@ -1,0 +1,113 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color: #e0e0e0;
+}
+
+.titulo{
+    margin: 20px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-copyright{
+    border-top: 1px solid #1a237e;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color:#1a237e;
+    color: white;
+}
+h3,h4,h5,h6{
+    text-align: center;
+    color: #010397;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #010397;
+    margin: 20px;
+}
+form{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #010397;
+    margin: 20px;
+
+}
+
+.mm{
+    font-size: 16px;
+    transform: translateY(25px);
+    color:#010397;
+    transition: all 0.5s;
+}
+input{
+    color:#010397;
+    transition: all 0.5s;
+}
+tr,td,#res{
+    color:#010397;
+}
+
+.section{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    position: relative;
+}
+caption{
+    text-align: center;
+    font-size: 14pt;
+}
+
+#ima{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 123px;
+    width: 280px;
+}
+.btncav{
+    text-align: center;
+    margin-top: 30px;
+}
+.combi{
+    margin: 8px;
+    margin-top: 0px;
+}
+#btnedi{
+    text-align: center;
+}
+.btncad{
+    text-align: center;
+}
+.inf{
+    margin-left: -10px;
+}
+#mobile-navbar{
+    background-color: #e0e0e0;
+}
+#logo{
+    font-size: 20px;
+}
+#logogas{
+    font-size: 14px;
+}
+#logoga{
+    font-size: 14px;
+}
+#logoin{
+    font-size: 16px;
+}
+#lgomanuc{
+    font-size: 22px;
+}
+#lgomanucon{
+    font-size: 22px;
+}
+#intro{
+    text-align: center;
+}
